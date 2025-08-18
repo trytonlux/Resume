@@ -3,9 +3,8 @@
   website: "",
   email: "",
   github: "",
-  body
-  ) = {
-
+  body,
+) = {
   set document(author: name, title: "Resume")
   set text(font: "Adwaita Sans", lang: "en")
   set page(margin: (x: 2.5cm, y: 2.5cm))
@@ -17,17 +16,15 @@
 
   // author
   align(center)[
-      #block(text(weight: 700, 1.75em, name))
+    #block(text(weight: 700, 1.75em, name))
   ]
 
   // links
-  align(center,
-    block[
-        #link("https://" + website)[#website] |
-        #link("mailto:" + email)[#email] |
-        #link("https://github.com/" + github)[github.com/#github]
-    ]
-  )
+  align(center, block[
+    #link("https://" + website)[#website] |
+    #link("mailto:" + email)[#email] |
+    #link("https://github.com/" + github)[github.com/#github]
+  ])
 
   // main body
   set par(justify: true)
@@ -53,8 +50,8 @@
       ],
       align(right)[
         #time
-      ]
-    )
+      ],
+    ),
   )
   details
 }

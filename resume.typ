@@ -4,7 +4,7 @@
   name: "Tryton Lux",
   website: "www.trytonlux.ca",
   email: "hello@trytonlux.ca",
-  github: "tryton-vanmeer"
+  github: "tryton-vanmeer",
 )
 
 = Work Experience
@@ -18,7 +18,7 @@
     - Deploy systems using IaC
     - Architect new deployments
     - Perform interviews with potential hires
-  ]
+  ],
 )
 
 #exp(
@@ -30,7 +30,7 @@
     - Implment optimizations for Windows VMs under Linux/KVM
     - Write user facing documentation
     - Implement new features in existing PHP application
-  ]
+  ],
 )
 
 = Projects
