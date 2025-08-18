@@ -7,7 +7,7 @@
   ) = {
 
   set document(author: name, title: "Resume")
-  set text(font: "JetBrains Mono", lang: "en")
+  set text(font: "Adwaita Sans", lang: "en")
   set page(margin: (x: 2.5cm, y: 2.5cm))
 
   show heading: it => [
