@@ -1,0 +1,9 @@
+[project]
+name = "resume"
+version = "1.0.0"
+description = "Personal Resume for Tryton Lux"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "rendercv[full]>=2.6",
+]
