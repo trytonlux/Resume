@@ -31,5 +31,4 @@ jobs:
         with:
           files: |
             rendercv_output/*.pdf
-          generate_release_notes: true
           make_latest: true
