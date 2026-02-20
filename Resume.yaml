@@ -1,0 +1,36 @@
+design:
+  theme: engineeringclassic
+  templates:
+    footer: ""
+cv:
+  name: Tryton Lux
+  email: hello@trytonlux.ca
+  website: https://www.trytonlux.ca
+  social_networks:
+    - network: GitHub
+      username: trytonlux
+  sections:
+    Experience:
+      - company: OXARO Inc.
+        position: Cloud Operations Developer
+        start_date: 2021-02
+        end_date: present
+        highlights:
+          - Architect new deployments
+          - Work with internal and external stakeholders
+          - Deploy systems using IaC
+          - Perform interviews with potential hires
+      - company: DLS Technology
+        position: Software Developer
+        start_date: 2019-11
+        end_date: 2021-02
+        highlights:
+          - Design/build vulnerability tracker using ReactJS and Python/FastAPI
+          - Implement optimizations for Windows VMs under Linux/KVM
+          - Write user facing documentation
+          - Implement new features in existing PHP application
+    Projects:
+      - "**[Proton-for-Steam](https://github.com/trytonlux/ProtonDB-for-Steam)** Firefox extension that shows ratings from protondb.com on Steam"
+      - "**[Home Server](https://github.com/trytonlux/titanium-server-config)** Fedora Server serving as a NAS and hosting various applications"
+      - "**[Toshokan](https://github.com/trytonlux/toshokan)** CLI tool, written in Rust, for interacting with your Steam library on Linux"
+      - "**[TuqueOS Workstation](https://github.com/tuque-os/workstation)** Fedora bootc image for personal customized desktop"
