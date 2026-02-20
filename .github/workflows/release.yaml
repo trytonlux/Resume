@@ -1,0 +1,35 @@
+name: Build and Release Resume
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: RenderCV
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: "pyproject.toml"
+      - name: Install UV
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install RenderCV
+        run: uv sync --locked
+      - name: Run RenderCV
+        run: uv run rendercv render Resume.yaml
+      - name: Make Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            rendercv_output/*.pdf
+          generate_release_notes: true
+          make_latest: true
