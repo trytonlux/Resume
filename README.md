@@ -1,6 +1,6 @@
 # Resume
 
-Personal Resume built with [typst](https://typst.app)
+Personal Resume built with [RenderCV](https://github.com/rendercv/rendercv)
 
 # Building
 
