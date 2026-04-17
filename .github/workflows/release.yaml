@@ -27,7 +27,7 @@ jobs:
       - name: Run RenderCV
         run: uv run rendercv render Resume.yaml
       - name: Make Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             rendercv_output/*.pdf
