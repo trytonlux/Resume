@@ -1,7 +1,8 @@
 design:
   theme: engineeringclassic
   templates:
-    footer: ""
+    footer: "*Last updated in CURRENT_DATE*"
+    top_note: ""
 cv:
   name: Tryton Lux
   email: hello@trytonlux.ca
