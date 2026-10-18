@@ -1,5 +1,15 @@
 design:
   theme: engineeringclassic
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  links:
+    underline: false
+    show_external_link_icon: true
   templates:
     footer: "*Last updated in CURRENT_DATE*"
     top_note: ""
