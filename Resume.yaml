@@ -23,14 +23,15 @@ cv:
   sections:
     Experience:
       - company: OXARO Inc.
-        position: Cloud Operations Developer
+        position: Senior Cloud Operations Developer
         start_date: 2021-02
         end_date: present
+        summary: Deploy and operate cloud deployments using infrastructure as code.
         highlights:
           - Architect new deployments
+          - Use reusable components/modules and develop new code as needed
           - Work with internal and external stakeholders
-          - Deploy systems using IaC
-          - Perform interviews with potential hires
+          - Security focused baseline for all deployments
       - company: DLS Technology
         position: Software Developer
         start_date: 2019-11
